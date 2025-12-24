@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta name="generator" content="Hugo {{ hugo.Version }}" />
+  <meta charset="utf-8">
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" type="text/css">
+  <link rel="stylesheet" href="{{ "css/normalize.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/all.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/vncnt.css" | relURL }}">
+  <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
+</head>
+<body>
+  <div class="landingpage">
+    <div class="grid-container fivetoseven" role="main">
+      <div class="item" aria-label="Avatar">
+        <section id="avatar">
+          <img class="avatar" src="{{ .Site.Params.avatar | relURL }}" alt="{{ .Site.Params.avatarAlt }}">
+        </section>
+      </div>
+      <div class="grid-container full autocenter">
+        <section id="bio" aria-label="Biography">
+          <h1 class="h3-like" aria-level="1" aria-label="Name">{{ .Title }}</h1>
+          <div class="reset-margin bio-content" title="About" aria-label="About">{{ .Content }}</div>
+        </section>
+        <section id="contact" aria-label="Contact">
+          <div class="icons" aria-label="Links">
+          <h2 class="h3-like" aria-label="Link Icons">
+              {{- range .Site.Data.social }}
+              {{- if .break }}
+              <br>
+              {{- else }}
+              <a class="icon" href="{{ .url }}" target="_blank" rel="noopener me">
+              <i class="{{ .icon }}" title="{{ .title }}" aria-label="{{ if .aria }}{{ .aria }}{{ else }}Go to {{ .title }}.{{ end }}"></i></a>
+              {{ end }}
+              {{- end }}
+          </h2>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    {{- if .Site.Data.projects }}
+    <section id="projects" aria-label="Projects">
+      <h2 class="h4-like">Projects</h2>
+      <p>Below are some things I've created recently. Most have a public website, a repo on GitHub, and some link to a podcast episode where I talked about them.</p>
+      <ul class="projects-list">
+        {{- range .Site.Data.projects }}
+        <li class="project-item">
+          <div class="project-header">
+            <span class="project-name">{{ .name }}</span>
+            <span class="project-links">
+              {{- if .website }}
+              <a href="{{ .website }}" target="_blank" rel="noopener" title="Website"><i class="fas fa-globe"></i></a>
+              {{- end }}
+              {{- if .repo }}
+              <a href="{{ .repo }}" target="_blank" rel="noopener" title="Repository"><i class="fab fa-github"></i></a>
+              {{- end }}
+              {{- if .linuxmatters }}
+              <a href="https://linuxmatters.sh/{{ .linuxmatters }}" target="_blank" rel="noopener" title="Linux Matters Episode {{ .linuxmatters }}"><i class="fas fa-podcast"></i></a>
+              {{- end }}
+              {{- if .blog }}
+              <a href="{{ .blog }}" target="_blank" rel="noopener" title="Blog post"><i class="fas fa-blog"></i></a>
+              {{- end }}
+            </span>
+          </div>
+          {{- if .description }}<div class="project-desc">{{ .description }}</div>{{ end }}
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+  </div>
+</body>
+</html>

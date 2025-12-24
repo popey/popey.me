@@ -1,0 +1,12 @@
+baseURL = "https://popey.me/"
+languageCode = "en-gb"
+title = "Alan Pope - popey"
+
+# Disable unused features to suppress warnings
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  author = "Alan Pope"
+  description = "Landing Page"
+  avatar = "img/devcon_headshot.png"
+  avatarAlt = "Headshot taken at AI Native DevCon in New York"

@@ -1,0 +1,60 @@
+# Projects list
+# Each project can have:
+#   name: Project name (required)
+#   description: Short description
+#   website: Project website URL
+#   repo: Git repository URL
+#   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
+#   blog: Blog post URL
+
+- name: Newsletter
+  description: My semi-regular email newsletter.
+  website: https://newsletter.popey.com
+  linuxmatters: 68
+
+- name: Streaming
+  description: Sometimes I live stream while doing a bit of open source maintenance. If you subscribe to the channels then maybe you'll find out when that is.
+  website: https://popey.com/live/
+  linuxmatters: 69
+
+- name: MojiNav
+  description: A fun but usable emoji-only city walking navigation app. I made this for a silly vibecoding contest. This got me through round 1, and actually works. 
+  repo: https://github.com/pope/vibelympics/tree/main/round_1
+  website: https://mojinav.popey.com
+  # linuxmatters: 72
+  # blog:
+
+- name: SnapScope
+  description: A tool for scanning Linux Snap packages for vulnerabilities. Another development that originated in a vibecoding contest. 
+  website: https://snapscope.popey.com/
+  repo: https://github.com/pope/vibelympics/tree/main/round_2
+
+- name: Nerdy Day Trips
+  description: Reboot of a decade-old and abaondoned website of the same name. Use it to find somewhere nerdy and interesting to go nearby. Also, please submit new places. 
+  repo: https://github.com/nerdydaytrips/website
+  website: https://nerdydaytrips.org/
+  linuxmatters: 57
+  # blog:
+
+- name: Grummage
+  description: Grype vulnerability report viewer written in Python, and using the Textual TUI framework. I created it to try out the library after seeing it in use at my previous employer, Anchore.
+  repo: https://github.com/popey/grummage
+  # website:
+  linuxmatters: 70
+  # blog:
+
+- name: Grype MCP
+  description: I wanted to understand how to make an MCP server, and had a good use case. Grype MCP can be used with your favourite AI agent (Claude, Cursor, Copilot etc) to check your projects for security vulnerabilities. It's written in Python, and worked for me.
+  repo: https://github.com/anchore/grype-mcp
+  linuxmatters: 64
+
+- name: Snap packages
+  description: I built and maintain a bunch of Snap packages in the Canonical Snap store. Much of the work is thankfully automated, but sometimes a human needs to enter the coding fray.
+  website: https://snapcraft.io/publisher/popey
+
+- name: Auxolotl
+  description: New music discovery service built using the Spotipy Python library at the backend, and some unfamilar web technology for user-facing stuff. Currently in limited closed beta.
+  website: https://auxolotl.com
+  # repo:
+  linuxmatters: 71
+  # blog:

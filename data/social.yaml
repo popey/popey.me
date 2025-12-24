@@ -1,0 +1,67 @@
+- name: Blog
+  url: https://blog.popey.com/
+  icon: fas fa-blog
+  title: blog
+
+- name: Email
+  url: mailto:alan@popey.com
+  icon: fas fa-envelope
+  title: personal email
+
+- name: GitHub
+  url: https://github.com/popey
+  icon: fab fa-github
+  title: github
+
+- name: Instagram
+  url: https://instagram.com/popey
+  icon: fab fa-instagram
+  title: instagram
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/alan-pope-uk/
+  icon: fab fa-linkedin
+  title: linkedin
+
+- name: Mastodon
+  url: https://mastodon.social/@popey
+  icon: fab fa-mastodon
+  title: mastodon
+
+- name: Reddit
+  url: https://reddit.com/u/popeydc
+  icon: fab fa-reddit
+  title: reddit
+
+# Row break after 7 icons
+
+- name: Steam
+  url: https://steamcommunity.com/id/popeydc
+  icon: fab fa-steam
+  title: steam
+
+- name: Telegram
+  url: https://t.me/popeydc
+  icon: fab fa-telegram
+  title: telegram
+
+- name: Twitch
+  url: https://twitch.tv/popeydc
+  icon: fab fa-twitch
+  title: twitch
+
+- name: Twitter
+  url: https://twitter.com/popey
+  icon: fab fa-twitter
+  title: twitter
+  aria: No longer in use.
+
+- name: Ubuntu
+  url: https://askubuntu.com/users/612/popey
+  icon: fab fa-ubuntu
+  title: ubuntu
+
+- name: YouTube
+  url: https://www.youtube.com/AlanPope
+  icon: fab fa-youtube
+  title: youtube
