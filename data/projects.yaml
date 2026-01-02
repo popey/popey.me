@@ -7,6 +7,10 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: Git a Fix
+  description: A "Tinder for Git(Hub)" app/site. Designed to connect (new and existing) developers to issues in projects that are looking for 'help needed' on a 'good first issue'. 
+  website: https://gitafix.com/
+
 - name: Newsletter
   description: My semi-regular email newsletter.
   website: https://newsletter.popey.com
