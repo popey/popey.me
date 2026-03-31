@@ -7,6 +7,11 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: lincubate
+  description: Run AI coding agents in sandboxed LXD containers
+  repo: https://github.com/popey/lincubate
+  linuxmatters: 78
+
 - name: Git a Fix
   description: A "Tinder for Git(Hub)" app/site. Designed to connect (new and existing) developers to issues in projects that are looking for 'help needed' on a 'good first issue'. 
   website: https://gitafix.com/
@@ -25,7 +30,7 @@
   description: A fun but usable emoji-only city walking navigation app. I made this for a silly vibecoding contest. This got me through round 1, and actually works. 
   repo: https://github.com/pope/vibelympics/tree/main/round_1
   website: https://mojinav.popey.com
-  # linuxmatters: 72
+  inuxmatters: 72
   # blog:
 
 - name: SnapScope
