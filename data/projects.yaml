@@ -7,6 +7,11 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: Snap Updates
+  description: An alternative to the official Snapcraft store website, showing snap package versions and update status.
+  website: https://snapupdates.popey.com/
+  linuxmatters: 79
+
 - name: lincubate
   description: Run AI coding agents in sandboxed LXD containers
   repo: https://github.com/popey/lincubate
