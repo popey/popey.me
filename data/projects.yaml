@@ -7,6 +7,18 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: slomore
+  description: A pager like less/more, but with controllable output speed. Pipe command output through slomore and set lines-per-second or seconds-per-line — ideal for making screencasts or demo videos.
+  repo: https://github.com/popey/slomore
+
+- name: sbommage
+  description: An interactive terminal frontend for viewing Software Bill of Materials (SBOM) files in various formats.
+  repo: https://github.com/popey/sbommage
+
+- name: sbom-vm
+  description: Generate a Software Bill of Materials (SBOM) from virtual machine disk images, without booting the VM.
+  repo: https://github.com/popey/sbom-vm
+
 - name: Snap Updates
   description: An alternative to the official Snapcraft store website, showing snap package versions and update status.
   website: https://snapupdates.popey.com/
