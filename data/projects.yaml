@@ -7,6 +7,17 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: Snap Updates
+  description: An alternative to the official Snapcraft store website, showing snap package versions and update status.
+  website: https://snapupdates.popey.com/
+  repo: https://github.com/popey/snapupdates
+  linuxmatters: 79
+
+- name: lincubate
+  description: Run AI coding agents in sandboxed LXD containers
+  repo: https://github.com/popey/lincubate
+  linuxmatters: 78
+
 - name: slomore
   description: A pager like less/more, but with controllable output speed. Pipe command output through slomore and set lines-per-second or seconds-per-line — ideal for making screencasts or demo videos.
   repo: https://github.com/popey/slomore
@@ -18,16 +29,6 @@
 - name: sbom-vm
   description: Generate a Software Bill of Materials (SBOM) from virtual machine disk images, without booting the VM.
   repo: https://github.com/popey/sbom-vm
-
-- name: Snap Updates
-  description: An alternative to the official Snapcraft store website, showing snap package versions and update status.
-  website: https://snapupdates.popey.com/
-  linuxmatters: 79
-
-- name: lincubate
-  description: Run AI coding agents in sandboxed LXD containers
-  repo: https://github.com/popey/lincubate
-  linuxmatters: 78
 
 - name: Git a Fix
   description: A "Tinder for Git(Hub)" app/site. Designed to connect (new and existing) developers to issues in projects that are looking for 'help needed' on a 'good first issue'. 
