@@ -5,7 +5,7 @@
 
 - name: Bluesky
   url: https://bsky.app/profile/popey.me
-  icon: fab fa-bluesky
+  icon: fa-brands fa-bluesky
   title: bluesky
 
 - name: Email
