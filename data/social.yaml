@@ -5,7 +5,7 @@
 
 - name: Bluesky
   url: https://bsky.app/profile/popey.me
-  icon: fa-brands fa-bluesky
+  icon: fab fa-bluesky
   title: bluesky
 
 - name: Email
@@ -33,12 +33,12 @@
   icon: fab fa-mastodon
   title: mastodon
 
+# Row break after 7 icons
+
 - name: Reddit
   url: https://reddit.com/u/popeydc
   icon: fab fa-reddit
   title: reddit
-
-# Row break after 7 icons
 
 - name: Steam
   url: https://steamcommunity.com/id/popeydc
