@@ -3,6 +3,11 @@
   icon: fas fa-blog
   title: blog
 
+- name: Bluesky
+  url: https://bsky.app/profile/popey.me
+  icon: fab fa-bluesky
+  title: bluesky
+
 - name: Email
   url: mailto:alan@popey.com
   icon: fas fa-envelope
@@ -28,12 +33,13 @@
   icon: fab fa-mastodon
   title: mastodon
 
+# Row break after 7 icons
+- break: true
+
 - name: Reddit
   url: https://reddit.com/u/popeydc
   icon: fab fa-reddit
   title: reddit
-
-# Row break after 7 icons
 
 - name: Steam
   url: https://steamcommunity.com/id/popeydc
