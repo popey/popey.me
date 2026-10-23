@@ -2,5 +2,5 @@
 title: "Alan Pope"
 ---
 
-Developer Relations at [Tessl](https://tessl.io/). [Podcaster](https://linuxmatters.sh/).
+Staff Software Engineer at [Chainguard](https://chainguard.dev/). [Podcaster](https://linuxmatters.sh/).
 Open Source Enthusiast.
