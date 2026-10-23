@@ -7,6 +7,28 @@
 #   linuxmatters: Episode number (will link to linuxmatters.sh/XX)
 #   blog: Blog post URL
 
+- name: Snap Charts
+  description: Metrics for snaps I maintain. This includes number of devices each snap has been installed on and aggregated data about the OS releases, country, architecture, and channels in use.
+  website: https://snap-charts.popey.com/
+  repo: https://github.com/popey/snap-charts
+  linuxmatters: 93
+
+- name: Flathub Updates
+  description: Like "Snap Updates", below, this is an alternative view showing flatpak updates and new applications in Flathub, as they appear.
+  website: https://flathubupdates.popey.com/
+  linuxmatters: 93
+
+- name: Linux Machines
+  description: An attempt to aggregate links to machines certified to run Linux, or sold with Linux.
+  website: https://linuxmachines.popey.com/
+  linuxmatters: 92
+
+- name: Snap Status
+  description: A dashboard to help me keep on top of which snap packages I maintain. It checks upstream repos for new releases, and highlights when snaps are outdated, need testing, or require no updates.
+  website: https://snaps.popey.com/
+  repo: https://github.com/popey/snap-status
+  linuxmatters: 87
+  
 - name: Snap Updates
   description: An alternative to the official Snapcraft store website, showing snap package versions and update status.
   website: https://snapupdates.popey.com/
